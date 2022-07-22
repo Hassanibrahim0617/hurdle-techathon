@@ -90,7 +90,9 @@ p{
 @media(max-width:600px){
     body{
         background-color:var(--violet);
-        background-image: url("bg-mobile.svg");
+        background-image: url(bg-mobile.svg);
+        height: 50vh;
+        Width:100vw;
     }
 
     .bar{
