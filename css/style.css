@@ -12,7 +12,9 @@
 
 body{
     background-color:var(--violet);
-    background-image: url("bg-desktop.svg");
+    background-image: url(bg-desktop.svg);
+    width:320px;
+    height:100vh;
 }
 
 .bar{
