@@ -77,13 +77,13 @@ p{
     display: inline;
     border: 1px solid var(--white);
     border-radius: 15px;
-    padding: 5px 8px;
+    padding: 6px 8px;
     margin:3px;
     cursor: pointer;
 }
 .fa-brands img{
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     color: var(--white);
 }
 
@@ -144,7 +144,7 @@ p{
         margin: 0px 10px 0px 0px;
         padding: 0 0px 30px 10px;
         font-size: 12px;
-        line-height: 1.6;
+        line-height: 2;
     }
 
     .reg a{
