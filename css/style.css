@@ -12,10 +12,12 @@
 
 body{
     background-color:var(--violet);
-    background-image: url(bg-desktop.svg);
-    width:320px;
-    height:100vh;
+    background-image:url(/images/bg-desktop.svg);
+    background-size: 90% 100%;
 }
+    
+    
+    
 
 .bar{
     padding: 40px 0 40px 35px;
@@ -51,6 +53,7 @@ p{
     border-radius: 20px;
     color: var(--violet);
     border: none;
+    box-shadow: 2px 2px 2px 1px var(--violet);
     margin-top: 20px;
     font-size: 12px;
     font-weight: 400;
@@ -58,6 +61,7 @@ p{
     padding: 10px 40px;
     text-decoration: none;
     cursor: pointer;
+    
 }
 
 .reg a:hover{
@@ -71,12 +75,16 @@ p{
 
 .fa-brands{
     display: inline;
-    color: var(--white);
     border: 1px solid var(--white);
     border-radius: 15px;
-    padding: 6px 14px;
-    margin:7px;
+    padding: 5px 8px;
+    margin:3px;
     cursor: pointer;
+}
+.fa-brands img{
+    width: 10px;
+    height: 10px;
+    color: var(--white);
 }
 
 .fa-brands:hover{
@@ -85,14 +93,18 @@ p{
     opacity: 1;
 }
 
+.fa-brands img:hover{
+    color: var(--softMangenta);
+}
+
 /* media queries start */
 
 @media(max-width:600px){
     body{
         background-color:var(--violet);
-        background-image: url(bg-mobile.svg);
-        height: 50vh;
-        Width:100vw;
+        background-image: url("/images/bg-mobile.svg");
+        background-size: 104% 52%;
+        background-repeat: no-repeat;
     }
 
     .bar{
@@ -116,7 +128,7 @@ p{
     .image img{
         width: 100%;
         height: 320px;
-        padding: 20px 30px 0px 0 ;
+        padding: 2px 30px 0px 0 ;
     }
 
     h1{
