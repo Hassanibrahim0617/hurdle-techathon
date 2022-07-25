@@ -12,7 +12,7 @@
 
 body{
     background-color:var(--violet);
-    background-image:url(/images/bg-desktop.svg);
+    background-image:url(../images/bg-desktop.svg);
     background-size: 90% 100%;
 }
     
@@ -102,7 +102,7 @@ p{
 @media(max-width:600px){
     body{
         background-color:var(--violet);
-        background-image: url("/images/bg-mobile.svg");
+        background-image: url("../images/bg-mobile.svg");
         background-size: 104% 52%;
         background-repeat: no-repeat;
     }
