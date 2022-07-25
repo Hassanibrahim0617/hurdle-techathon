@@ -80,12 +80,13 @@ p{
     border-radius: 15px;
     padding: 7px 7px 3px 7px;
     margin:3px;
+    color: var(--white);
     cursor: pointer;
 }
 .fa-brands img{
     width: 14px;
     height: 16px;
-    color: var(--white); 
+    
 }
 
 .fa-brands:hover{
