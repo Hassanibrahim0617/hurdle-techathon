@@ -77,27 +77,27 @@ p{
 .fa-brands{
     display: inline;
     border: 1px solid var(--white);
-    border-radius: 15px;
-    padding: 7px 7px 3px 7px;
+    border-radius: 18px;
+    padding: 6px;
+    width: 8px;
+    height: 8px;
     margin:3px;
-    color: var(--white);
+    color: var(--white); 
     cursor: pointer;
 }
-.fa-brands img{
-    width: 14px;
-    height: 16px;
+.fa-facebook-f{
+    padding:6px 8px;
     
 }
 
 .fa-brands:hover{
-    background-color: var(--softMangenta);
+    background-color: var(--violet);
     border: 1px solid var(--softMangenta);
+    color: var(--softMangenta);
     opacity: 1;
 }
 
-.fa-brands img:hover{
-    color: var(--softMangenta);
-}
+
 
 /* media queries start */
 
